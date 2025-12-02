@@ -69,28 +69,40 @@ const SideFilters = () => {
                       <h2 className='font-bold mb-3 tracking-wide'>PRODUCT TYPE</h2>
                 <div className=' flex h-[170px] tracking-wider my-scrolling-area overflow-y-scroll flex-col gap-1'>
                       <div className='text-[14px] flex gap-2 items-center'>
-                          <span className='pt-1'><input type='radio' checked readOnly className='w-3 h-3 rounded-full' /> 💍</span>
+                          <span className='pt-1'><input type='radio' checked readOnly className='w-3 h-3 rounded-full' /> 
+                          </span>
+                           <img src="/image 1 (Traced).png" alt="" />
                           <p>Rings <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-2 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
-                          <p>Rings <span className='text-green-700'>(589)</span></p>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 
+                          </span>
+                           <img src="/image 44 (Traced).png" alt="" />
+                          <p>Earrings <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-2 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
-                          <p>Rings <span className='text-green-700'>(589)</span></p>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 
+                          </span>
+                           <img src="/image 47 (Traced).png" alt="" />
+                          <p>Bracelets <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-2 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
-                          <p>Rings <span className='text-green-700'>(589)</span></p>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 
+                          </span>
+                           <img src="/image 48 (Traced).png" alt="" />
+                          <p>Pendants <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-2 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
-                          <p>Rings <span className='text-green-700'>(589)</span></p>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 
+                          </span>
+                           <img src="/image 46 (Traced).png" alt="" />
+                          <p>Bangles <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-2 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
-                          <p>Rings <span className='text-green-700'>(589)</span></p>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 
+                          </span>
+                           <img src="/image 45 (Traced).png" alt="" />
+                          <p>Necklaces <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-2 items-center'>
                           <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
@@ -124,35 +136,35 @@ const SideFilters = () => {
                       <h2 className='font-bold mb-3 tracking-wide'>WEIGHT RANGE</h2>
                 <div className=' flex h-[170px] tracking-wider my-scrolling-area overflow-y-scroll flex-col gap-1'>
                       <div className='text-[14px] flex gap-2 items-center'>
-                          <span className='pt-1'><input type='radio' checked readOnly className='w-3 h-3 rounded-full' /> 💍</span>
+                          <span className='pt-1'><input type='radio' checked readOnly className='w-3 h-3 rounded-full' /> </span>
                           <p>Under 2 grams <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-1 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /></span>
                           <p>2 grams  -  5 grams <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-1 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /></span>
                          <p>2 grams  -  5 grams <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-1 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /></span>
                          <p>2 grams  -  5 grams <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-1 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> </span>
                          <p>2 grams  -  5 grams <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-1 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> </span>
                          <p>2 grams  -  5 grams <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-1 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> </span>
                           <p>Rings <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-1 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> </span>
                           <p>Rings <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-1 items-center'>
@@ -176,22 +188,26 @@ const SideFilters = () => {
 
                     <hr className='border-2 border-black/5 w-[80%] my-4' />
 
-                      <h2 className='font-bold mb-3 tracking-wide'>PRODUCT TYPE</h2>
+                      <h2 className='font-bold mb-3 tracking-wide'>MATERIAL</h2>
                 <div className=' flex tracking-wider  flex-col gap-1'>
                       <div className='text-[14px] flex gap-2 items-center'>
-                          <span className='pt-1'><input type='radio' checked readOnly className='w-3 h-3 rounded-full' /> 💍</span>
+                          <span className='pt-1'><input type='radio' checked readOnly className='w-3 h-3 rounded-full' /></span>
+                            <img src="/image 21 (Traced).png" alt="" />
                           <p>Diamond <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-2 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /></span>
+                            <img src="/image 20 (Traced).png" alt="" />
                           <p>Gold <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-2 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /></span>
+                           <img src="/image 22 (Traced).png" alt="" />
                           <p>Solitaire <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-2 items-center'>
-                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
+                          <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /></span>
+                            <img src="/gem 1.png" alt="" />
                           <p>Gemstone <span className='text-green-700'>(589)</span></p>
                       </div>
 
@@ -203,14 +219,17 @@ const SideFilters = () => {
                 <div className=' flex tracking-wider flex-col gap-1'>
                       <div className='text-[14px] flex gap-2 items-center'>
                           <span className='pt-1'><input type='radio' checked readOnly className='w-3 h-3 rounded-full' /> 💍</span>
+                          <span className='text-[18px] text-orange-400 '>o</span>
                           <p>Yellow Gold <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-2 items-center'>
                           <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
+                                                <span className='text-[18px] text-gray-400 '>o</span>
                           <p>White Gold <span className='text-green-700'>(589)</span></p>
                       </div>
                        <div className='text-[14px] flex gap-2 items-center'>
                           <span className='pt-1'><input type='radio'  className='w-3 h-3 rounded-full' /> 💍</span>
+                                               <span className='text-[18px] text-red-600 '>o</span>
                           <p>Rose Gold <span className='text-green-700'>(589)</span></p>
                       </div>
                </div>

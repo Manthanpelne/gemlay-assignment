@@ -96,10 +96,10 @@ const LandingPage = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-4 px-[21px]">
             {imgs.map((imgSrc, index) => {
               return (
-                <div key={index} className="w-[180px] lg:w-[270px] ">
-                  <div className="h-[180px] lg:h-[280px] bg-[#FFFFFF] w-full flex flex-col justify-between rounded-[15px] border p-3 border-black/10 shadow relative">
+                <div key={index} className="md:w-[270px] ">
+                  <div className="h-[180px] md:h-[280px] bg-[#FFFFFF] w-full flex flex-col justify-between rounded-[15px] border p-3 border-black/10 shadow relative">
                     <div className="flex justify-between items-center z-10">
-                    <img className='w-[81px] md:w-[105px]' src="/Group 27168.png" alt="" />
+                   <img className='w-[81px] md:w-[105px]' src="/Group 27168.png" alt="" />
                   <img className='w-3 md:w-[18px]' src="/heart.png" alt="" />
                     </div>
                     <img className='w-5[px] md:w-2 md:hidden absolute left-3 top-1/2' src="/Group 27324.svg" alt="" />
@@ -135,14 +135,16 @@ const LandingPage = () => {
               <div className='flex w-full items-center gap-4'>
             {imgs2.map((imgSrc, index) => {
               return (
-              <div key={index} className="w-[180px] lg:w-[270px] ">
-                  <div className="h-[180px] lg:h-[280px] bg-[#FFFFFF] w-full flex flex-col justify-between rounded-[15px] border p-5 border-black/10 shadow relative">
+               <div key={index} className="md:w-[270px] ">
+                  <div className="h-[180px] md:h-[280px] bg-[#FFFFFF] w-full flex flex-col justify-between rounded-[15px] border p-3 border-black/10 shadow relative">
                     <div className="flex justify-between items-center z-10">
-                      <p>BESTSELLER</p>
-                      <p>❤️</p>
+                   <img className='w-[81px] md:w-[105px]' src="/Group 27168.png" alt="" />
+                  <img className='w-3 md:w-[18px]' src="/heart.png" alt="" />
                     </div>
+                    <img className='w-5[px] md:w-2 md:hidden absolute left-3 top-1/2' src="/Group 27324.svg" alt="" />
+                    <img className='w-[5px] md:w-2 md:hidden absolute right-3 top-1/2' src="/Group 27328.svg" alt="" />
                     <img
-                      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  w-[140px] h-[140px] md:w-[220px] md:h-[220px] object-cover"
+                      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140px] h-[140px] md:w-[220px] md:h-[220px] object-cover"
                       src={imgSrc}
                       alt="Product Image"
                     />
@@ -153,13 +155,15 @@ const LandingPage = () => {
                         <span className="text-gray-400">o</span>
                         <span className="text-red-400">o</span>
                       </div>
-                      <div className="">[]</div>
+                      <div className="">
+                         <img className='w-3 md:w-5' src="/Group 27325.png" alt="" />
+                      </div>
                     </div>
                   </div>
-                  <div className="px-3 py-2 tracking-wide font-semibold"> 
-                  <p className="text-[18px]">$23,335 <span className="text-black/50 text-[13px]">$24,554</span> </p>
-                  <span className="text-[13px]">Yemarly wings diamond</span>
-                  <p className="text-[#007A64] text-[13px]">10% on off Making Charges</p>
+                  <div className="px-3 py-2 leading-4 md:leading-5 tracking-wide font-semibold"> 
+                  <p className=" text-[14px] md:text-[18px]">$23,335 <span className="text-black/50 text-[11px] md:text-[13px]">$24,554</span> </p>
+                  <span className="text-[10px] md:text-[13px]">Yemarly wings diamond...</span>
+                  <p className="text-[#007A64] text-[9px] md:text-[13px]">10% on off Making Charges</p>
                   </div>
                   <button className="text-white rounded-[30px] bg-linear-to-l from-[#00382D] to-[#009E7F] py-2 text-sm w-full">Buy Now</button>
                 </div>
@@ -173,14 +177,16 @@ const LandingPage = () => {
              <div className="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-4 px-[21px]">
             {imgs.map((imgSrc, index) => {
               return (
-              <div key={index} className="w-[180px] lg:w-[270px] ">
-                  <div className="h-[180px] lg:h-[280px] bg-[#FFFFFF] w-full flex flex-col justify-between rounded-[15px] border p-5 border-black/10 shadow relative">
+                 <div key={index} className="md:w-[270px] ">
+                  <div className="h-[180px] md:h-[280px] bg-[#FFFFFF] w-full flex flex-col justify-between rounded-[15px] border p-3 border-black/10 shadow relative">
                     <div className="flex justify-between items-center z-10">
-                      <p>BESTSELLER</p>
-                      <p>❤️</p>
+                   <img className='w-[81px] md:w-[105px]' src="/Group 27168.png" alt="" />
+                  <img className='w-3 md:w-[18px]' src="/heart.png" alt="" />
                     </div>
+                    <img className='w-5[px] md:w-2 md:hidden absolute left-3 top-1/2' src="/Group 27324.svg" alt="" />
+                    <img className='w-[5px] md:w-2 md:hidden absolute right-3 top-1/2' src="/Group 27328.svg" alt="" />
                     <img
-                      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  w-[140px] h-[140px] md:w-[220px] md:h-[220px] object-cover"
+                      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140px] h-[140px] md:w-[220px] md:h-[220px] object-cover"
                       src={imgSrc}
                       alt="Product Image"
                     />
@@ -191,13 +197,15 @@ const LandingPage = () => {
                         <span className="text-gray-400">o</span>
                         <span className="text-red-400">o</span>
                       </div>
-                      <div className="">[]</div>
+                      <div className="">
+                         <img className='w-3 md:w-5' src="/Group 27325.png" alt="" />
+                      </div>
                     </div>
                   </div>
-                  <div className="px-3 py-2 tracking-wide font-semibold"> 
-                  <p className="text-[18px]">$23,335 <span className="text-black/50 text- text-[13px]">$24,554</span> </p>
-                  <span className="text-[13px]">Yemarly wings diamond</span>
-                  <p className="text-[#007A64] text-[13px]">10% on off Making Charges</p>
+                  <div className="px-3 py-2 leading-4 md:leading-5 tracking-wide font-semibold"> 
+                  <p className=" text-[14px] md:text-[18px]">$23,335 <span className="text-black/50 text-[11px] md:text-[13px]">$24,554</span> </p>
+                  <span className="text-[10px] md:text-[13px]">Yemarly wings diamond...</span>
+                  <p className="text-[#007A64] text-[9px] md:text-[13px]">10% on off Making Charges</p>
                   </div>
                   <button className="text-white rounded-[30px] bg-linear-to-l from-[#00382D] to-[#009E7F] py-2 text-sm w-full">Buy Now</button>
                 </div>
@@ -211,14 +219,16 @@ const LandingPage = () => {
               <div className='w-full flex items-center gap-4'>
             {imgs3.map((imgSrc, index) => {
               return (
-                <div key={index} className="w-[180px] lg:w-[270px] ">
-                  <div className="h-[180px] lg:h-[280px] bg-[#FFFFFF] w-full flex flex-col justify-between rounded-[15px] border p-5 border-black/10 shadow relative">
+                  <div key={index} className="md:w-[270px] ">
+                  <div className="h-[180px] md:h-[280px] bg-[#FFFFFF] w-full flex flex-col justify-between rounded-[15px] border p-3 border-black/10 shadow relative">
                     <div className="flex justify-between items-center z-10">
-                      <p>BESTSELLER</p>
-                      <p>❤️</p>
+                   <img className='w-[81px] md:w-[105px]' src="/Group 27168.png" alt="" />
+                  <img className='w-3 md:w-[18px]' src="/heart.png" alt="" />
                     </div>
+                    <img className='w-5[px] md:w-2 md:hidden absolute left-3 top-1/2' src="/Group 27324.svg" alt="" />
+                    <img className='w-[5px] md:w-2 md:hidden absolute right-3 top-1/2' src="/Group 27328.svg" alt="" />
                     <img
-                      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  w-[140px] h-[140px] md:w-[220px] md:h-[220px] object-cover"
+                      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140px] h-[140px] md:w-[220px] md:h-[220px] object-cover"
                       src={imgSrc}
                       alt="Product Image"
                     />
@@ -229,13 +239,15 @@ const LandingPage = () => {
                         <span className="text-gray-400">o</span>
                         <span className="text-red-400">o</span>
                       </div>
-                      <div className="">[]</div>
+                      <div className="">
+                         <img className='w-3 md:w-5' src="/Group 27325.png" alt="" />
+                      </div>
                     </div>
                   </div>
-                  <div className="px-3 py-2 tracking-wide font-semibold"> 
-                  <p className="text-[18px]">$23,335 <span className="text-black/50 text-[13px]">$24,554</span> </p>
-                  <span className="text-[13px]">Yemarly wings diamond</span>
-                  <p className="text-[#007A64] text-[13px]">10% on off Making Charges</p>
+                  <div className="px-3 py-2 leading-4 md:leading-5 tracking-wide font-semibold"> 
+                  <p className=" text-[14px] md:text-[18px]">$23,335 <span className="text-black/50 text-[11px] md:text-[13px]">$24,554</span> </p>
+                  <span className="text-[10px] md:text-[13px]">Yemarly wings diamond...</span>
+                  <p className="text-[#007A64] text-[9px] md:text-[13px]">10% on off Making Charges</p>
                   </div>
                   <button className="text-white rounded-[30px] bg-linear-to-l from-[#00382D] to-[#009E7F] py-2 text-sm w-full">Buy Now</button>
                 </div>
