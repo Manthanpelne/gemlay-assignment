@@ -93,7 +93,7 @@ const LandingPage = () => {
         <div className="xl:flex gap-3">
           <SideFilters />
           <div>
-          <div className="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-4 px-[21px]">
+          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 px-[21px]">
             {imgs.map((imgSrc, index) => {
               return (
                 <div key={index} className="md:w-[270px] ">

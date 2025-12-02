@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='bg-[#141C1E] md:bg-[#1B3536] pt-3 w-full mt-10 pb-5 '>
-      <div className='hidden md:flex items-center gap-5 justify-between px-5 lg:px-20 pt-12'>
+      <div className='hidden md:flex items-center gap-5 justify-between px-5 lg:px-20 pt-5'>
         <div>
           <h2 className='text-[#21DAD8] uppercase font-bold text-[15px] mb-3'>Contact Us</h2>
            <ul className='flex flex-col text-white text-[14px]
@@ -40,7 +40,7 @@ Juncttion , Mohali , 160062 </span>
              </ul>
         </div>
         <div>
-             <h2 className='text-[15px] text-[#21DAD8] uppercase font-bold mb-3'>Our Services</h2>
+             <h2 className='text-[15px] text-[#21DAD8] uppercase font-bold mb-3'>Our Policies</h2>
              <ul className='flex text-white flex-col text-[11px] gap-2'>
               <li>Gold Rates</li>
               <li>Digital Gold</li>
@@ -51,7 +51,7 @@ Juncttion , Mohali , 160062 </span>
              </ul>
         </div>
       <div>
-             <h2 className='text-[15px] text-[#21DAD8] uppercase font-bold mb-3'>Our Services</h2>
+             <h2 className='text-[15px] text-[#21DAD8] uppercase font-bold mb-3'>Jewellery knowledge</h2>
              <ul className='flex text-white flex-col text-[11px] gap-2'>
               <li>Gold Rates</li>
               <li>Digital Gold</li>
@@ -62,7 +62,7 @@ Juncttion , Mohali , 160062 </span>
              </ul>
         </div>
          <div>
-             <h2 className='text-[15px] text-[#21DAD8] uppercase font-bold mb-3'>Our Services</h2>
+             <h2 className='text-[15px] text-[#21DAD8] uppercase font-bold mb-3'>About Us</h2>
              <ul className='flex text-white flex-col text-[11px] gap-2'>
               <li>Gold Rates</li>
               <li>Digital Gold</li>
@@ -74,12 +74,12 @@ Juncttion , Mohali , 160062 </span>
         </div>
       </div>
 
-<div className='px-20'>
+<div className='px-20 mb-4'>
      <span className='text-[16px] text-white'>
                 Download Our Application
              </span>
-            <div className='flex items-center gap-1'>
-  <img className='w-[130px]' src="gplay.png" alt="" />
+            <div className='flex mt-2 items-center gap-1'>
+  <img className='w-[100px]' src="gplay.png" alt="" />
   <img className='w-[100px]' src="apple.png" alt="" />
             </div>
 </div>
